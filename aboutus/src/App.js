@@ -25,8 +25,8 @@ function App() {
         <header className="masthead">
             <div className="container d-flex h-100 align-items-center">
                 <div className="mx-auto text-center">
-                    <h1 className="text-white mx-auto my-0 text-uppercase">Your Story is Unique</h1>
-                    <h2 className="text-white mx-auto mt-2 mb-5">
+                    <h1 className="font-weight-bold text-white mx-auto my-0 text-uppercase">Your Story is Unique</h1>
+                    <h2 className="font-weight-regular text-white mx-auto mt-2 mb-5">
                     you deserve the best care by the right professional to help you overcome 
                     your pain and injuries. Wherever you are, whenever you need, we have 
                     the right person who can guide you.
@@ -36,11 +36,10 @@ function App() {
         </header>
         
         <section className="about-section text-center" id="about">
-            <div className="container">
+            <div className="container"> 
                 <div className="row">
                     <div className="col-lg-8 mx-auto">
-                        <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
-                        <p className="text-white-100">
+                        <p className="font-weight-light text-white-100">
                         At Heka our mission is to make care inclusive, convenient and accessible
                         by leveraging the power of modern technology. We believe that by finding 
                         the professional who is the right match for you, the care you’ll receive 
@@ -48,65 +47,47 @@ function App() {
                         </p>
                     </div>
                 </div>
-                <img className="img-fluid" src="assets/img/ipad.png" alt="" />
             </div>
         </section>
 
-        <section className="projects-section bg-light" id="projects">
-            <div className="container">
-                
-                <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div className="col-xl-8 col-lg-7"><img className="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="" /></div>
-                    <div className="col-xl-4 col-lg-5">
-                        <div className="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p className="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
-                    </div>
-                </div>
-      
-                <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div className="col-lg-6"><img className="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
-                    <div className="col-lg-6">
-                        <div className="bg-black text-center h-100 project">
-                            <div className="d-flex h-100">
-                                <div className="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 className="text-white">Misty</h4>
-                                    <p className="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                    <hr className="d-none d-lg-block mb-0 ml-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="row justify-content-center no-gutters">
-                    <div className="col-lg-6"><img className="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
-                    <div className="col-lg-6 order-lg-first">
-                        <div className="bg-black text-center h-100 project">
-                            <div className="d-flex h-100">
-                                <div className="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 className="text-white">Mountains</h4>
-                                    <p className="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr className="d-none d-lg-block mb-0 mr-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <section className="mastheadtwo">
+            <div className="container d-flex h-100 align-items-center">
+                <div className="mx-auto text-center">
+                    <h1 className="text-white mx-auto my-0 text-uppercase">The Origin</h1>
+                    <h3 className="font-italic text-white mx-auto mt-2 mb-5">
+                    “Heka was the deification of magic and medicine in ancient Egypt”
+                    </h3>
+                    <h2 className="text-white mx-auto mt-2 mb-5">
+                    In ancient egypt, pharaoh would send their best caregivers to treat their loved ones. 
+                    Home care was the best personalized experience. At Heka, we believe you deserve the royale treatment. Using technology, we bring you 
+                    effective care to your home or anywhere via digital care.
+                    </h2>
                 </div>
             </div>
         </section>
-        
-        <section className="signup-section" id="signup">
+       
+
+        <section className="projects-section bg-light" id="projects">
             <div className="container">
-                <div className="row">
-                    <div className="col-md-10 col-lg-8 mx-auto text-center">
-                        <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 className="text-white mb-5">Subscribe to receive updates!</h2>
-                        <form className="form-inline d-flex">
-                            <input className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
-                            <button className="btn btn-primary mx-auto" type="submit">Subscribe</button>
-                        </form>
+                <div className="text-center">
+                    <h1 className="font-weight-bold">Meet the Team</h1>
+                </div>
+                <div className="row people">
+                    <div className="col-md-6 col-lg-6 item">
+                        <div className="box"><img className="rounded-circle" data-bs-hover-animate="pulse" src="https://i.imgur.com/nAcoHRf.jpg"/>
+                            <h3 className="name">Boris Simga</h3>
+                            <p className="title">Designer</p>
+                            <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <div className="social"><a href="#"><i className="fa fa-facebook-official"></i></a><a href="#"><i className="fa fa-twitter"></i></a><a href="#"><i className="fa fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                    <div className="col-md-6 col-lg-6 item">
+                        <div className="box"><img className="rounded-circle" data-bs-hover-animate="pulse" src="https://i.imgur.com/xELPaag.jpg"/>
+                            <h3 className="name">Andy row</h3>
+                            <p className="title">Graphics designer</p>
+                            <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ismal</p>
+                            <div className="social"><a href="#"><i className="fa fa-facebook-official"></i></a><a href="#"><i className="fa fa-twitter"></i></a><a href="#"><i className="fa fa-instagram"></i></a></div>
+                        </div>
                     </div>
                 </div>
             </div>
