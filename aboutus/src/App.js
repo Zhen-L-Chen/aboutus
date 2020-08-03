@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import zhen from './zhen.png';
+import peter from './peter.png';
+import linkedin from './linkedin.png';
 
 function App() {
   return (
@@ -67,70 +70,36 @@ function App() {
         </section>
        
 
-        <section className="projects-section bg-light" id="projects">
+        <section className="projects-section bg-black" id="projects">
             <div className="container">
-                <div className="text-center">
-                    <h1 className="font-weight-bold">Meet the Team</h1>
-                </div>
-                <div className="row people">
-                    <div className="col-md-6 col-lg-6 item">
-                        <div className="box"><img className="rounded-circle" data-bs-hover-animate="pulse" src="https://i.imgur.com/nAcoHRf.jpg"/>
-                            <h3 className="name">Boris Simga</h3>
-                            <p className="title">Designer</p>
-                            <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-                            <div className="social"><a href="#"><i className="fa fa-facebook-official"></i></a><a href="#"><i className="fa fa-twitter"></i></a><a href="#"><i className="fa fa-instagram"></i></a></div>
+                <div class="team-boxed">
+                    <div class="container">
+                        <div className="text-center">
+                            <h1 className="font-weight-bold text-white">Meet the Team</h1>
                         </div>
-                    </div>
-                    <div className="col-md-6 col-lg-6 item">
-                        <div className="box"><img className="rounded-circle" data-bs-hover-animate="pulse" src="https://i.imgur.com/xELPaag.jpg"/>
-                            <h3 className="name">Andy row</h3>
-                            <p className="title">Graphics designer</p>
-                            <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ismal</p>
-                            <div className="social"><a href="#"><i className="fa fa-facebook-official"></i></a><a href="#"><i className="fa fa-twitter"></i></a><a href="#"><i className="fa fa-instagram"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-      
-        <section className="contact-section bg-black">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-4 mb-3 mb-md-0">
-                        <div className="card py-4 h-100">
-                            <div className="card-body text-center">
-                                <i className="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 className="text-uppercase m-0">Address</h4>
-                                <hr className="my-4" />
-                                <div className="small text-black-50">4923 Market Street, Orlando FL</div>
+                        <div className="row people">
+                            <div className="col-md-6 col-lg-6 item">
+                                <div className="box"><img className="rounded-circle" data-bs-hover-animate="pulse" src={zhen}/>
+                                    <h3 className="name">Zhen Chen</h3>
+                                    <p className="title">CEO Co-Founder</p>
+                                    <p className="description">Background is in physiotherapy from McGill University. 
+                                    Self-taught graphic designer who was admitted to McGill School of Architecture. 
+                                    Learned to code for research to apply AI. Python, JS/CSS/HTML</p>
+                                    <div className="social"><a href="https://www.linkedin.com/in/zhen-chen-6428b2160/"><img className="linkedin" data-bs-hover-animate="pulse" src={linkedin}/></a></div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-lg-6 item">
+                                <div className="box"><img className="rounded-circle" data-bs-hover-animate="pulse" src={peter}/>
+                                    <h3 className="name">Peter Chen</h3>
+                                    <p className="title">CTO Co-Founder</p>
+                                    <p className="description">Background is in computer science from McGill University. 
+                                    Interned at Plotly. Full stack developer and part-time photographer who grew a photography 
+                                    blog to 20k+ followers on Twitter</p>
+                                    <div className="social"><a href="https://www.linkedin.com/in/peterzhidingchen/"><img className="linkedin" data-bs-hover-animate="pulse" src={linkedin}/></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mb-3 mb-md-0">
-                        <div className="card py-4 h-100">
-                            <div className="card-body text-center">
-                                <i className="fas fa-envelope text-primary mb-2"></i>
-                                <h4 className="text-uppercase m-0">Email</h4>
-                                <hr className="my-4" />
-                                <div className="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-3 mb-md-0">
-                        <div className="card py-4 h-100">
-                            <div className="card-body text-center">
-                                <i className="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 className="text-uppercase m-0">Phone</h4>
-                                <hr className="my-4" />
-                                <div className="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="social d-flex justify-content-center">
-                    <a className="mx-2" href="#!"><i className="fab fa-twitter"></i></a>
-                    <a className="mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
-                    <a className="mx-2" href="#!"><i className="fab fa-github"></i></a>
                 </div>
             </div>
         </section>

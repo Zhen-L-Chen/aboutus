@@ -10326,14 +10326,14 @@ body {
     padding: 0;
   }
   .mastheadtwo h1 {
-    font-size: 4.0rem;
+    font-size: 5.0rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
     max-width: 80rem;
   }
   .mastheadtwo h2 {
     max-width: 40rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2.5rem;
   }
   .mastheadtwo h3 {
@@ -10441,7 +10441,7 @@ body {
 /*Team section*/
 .team-boxed {
   color: #313437;
-  background-color: #D50000
+  background-color: black
 }
 
 .team-boxed p {
@@ -10505,7 +10505,7 @@ body {
 }
 
 .team-boxed .item .description {
-  font-size: 15px
+  font-size: 15px;
 }
 
 .team-boxed .item img {
@@ -10513,22 +10513,15 @@ body {
 }
 
 .team-boxed .social {
-  font-size: 18px;
+  font-size: 4px;
   color: #a2a8ae
 }
 
 .team-boxed .social:hover {
-  font-size: 18px;
+  font-size: 4px;
   color: #f80808
 }
 
-.team-boxed .social a {
-  color: inherit;
-  margin: 0 10px;
-  display: inline-block;
-  opacity: 0.7;
-  padding: 6px
-}
 
 .team-boxed .social a:hover {
   opacity: 1
