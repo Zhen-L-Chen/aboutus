@@ -10433,9 +10433,12 @@ body {
 .contact-section .social a:active {
   color: #fff;
 }
-
 .footer {
   padding: 5rem 0;
+}
+.logo {
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 /*Team section*/
