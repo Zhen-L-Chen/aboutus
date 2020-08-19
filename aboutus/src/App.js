@@ -11,7 +11,7 @@ function App() {
         <nav className={`${styles.navbar} ${styles[navbar-expand-lg ]} ${styles[navbar-light]} ${styles[fixed-top]}`}  
         id={styles.mainNav}>
             <div className={styles.container}>
-                <a className={`${styles.navbar-brand} ${styles.js-scroll-trigger} ${styles.href="#page-top"}`>} {<img className={`${styles.logo} ${styles.data-bs-hover-animate="pulse" src={logo}}`/>}</a>
+                <a className={`${styles[navbar-brand]} ${styles[js-scroll-trigger]} ${styles[href="#page-top"]}`>} {<img className={`${styles.logo} ${styles[data-bs-hover-animate="pulse"] src={logo}}`/>}</a>
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars"></i>
