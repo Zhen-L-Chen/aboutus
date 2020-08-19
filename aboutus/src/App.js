@@ -14,9 +14,9 @@ function App() {
                 <a className={`${styles[navbar-brand]} ${styles[js-scroll-trigger]} ${styles[href="#page-top"]}`>} {<img className={`${styles.logo} ${styles[data-bs-hover-animate="pulse"] src={logo}}`/>}</a>
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
-                    <i className="fas fa-bars"></i>
+                    <i className={`${styles.fas} ${styles[fa-bars]}`}></i>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarResponsive">
+                <div className={`${styles.collapse} ${styles[navbar-collapse]}`} id="navbarResponsive">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">Book Now</a></li>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">How does it work</a></li>
