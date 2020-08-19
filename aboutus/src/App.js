@@ -7,16 +7,17 @@ import linkedin from './linkedin.png';
 
 function App() {
   return (
-    <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div className="container">
-                <a className="navbar-brand js-scroll-trigger" href="#page-top"><img className="logo" data-bs-hover-animate="pulse" src={logo}/></a>
-                <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <div className={styles.App}>
+        <nav className={`${styles.navbar} ${styles['navbar-expand-lg']} ${styles['navbar-light']} ${styles['fixed-top']}`}
+        id={styles.mainNav}>
+            <div className={styles.container}>
+                <a className={`${styles['navbar-brand']} ${styles['js-scroll-trigger']}`} href="#page-top"><img className={styles.logo} data-bs-hover-animate="pulse" src={logo}/></a>
+                <button className={`${styles['navbar-toggler']} ${styles['navbar-toggler-right']}`} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
-                    <i className="fas fa-bars"></i>
+                    <i className={`${styles.fas} ${styles['fa-bars']}`}></i>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarResponsive">
-                    <ul className="navbar-nav ml-auto">
+                <div className={`${styles.collapse} ${styles['navbar-collapse']}`} id={styles.navbarResponsive}>
+                    <ul className={`${styles['navbar-nav']} ${styles['ml-auto']}`}>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">Book Now</a></li>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">How does it work</a></li>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
