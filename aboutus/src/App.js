@@ -7,8 +7,9 @@ import linkedin from './linkedin.png';
 
 function App() {
   return (
-    <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div className={styles.App}>
+        <nav className={`${styles.navbar} ${styles[navbar-expand-lg ]} ${styles[navbar-light]} ${styles[fixed-top]}`}  
+        id={styles.mainNav}>
             <div className="container">
                 <a className="navbar-brand js-scroll-trigger" href="#page-top"><img className="logo" data-bs-hover-animate="pulse" src={logo}/></a>
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
